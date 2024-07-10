@@ -6,10 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: url('../img/lunares-blancos-fondo-colores.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Esto evita que la imagen de fondo se desplace al hacer scroll */
+  background-color: #ee87a4;
 }
 
 
