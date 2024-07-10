@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assent/css/styles.css">
+ 
+</head>
+<body>
+    <header>
+        <h1 class="letra titulo a">Feliz CumpleMes</h1>
+        <p class="date titulo"><b>12/07/2024</b> </p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card" style="background-image: url('./assent/img/imagen1.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen2.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen3.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen4.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen5.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen6.jpeg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen7.jpeg');"></div>
+        </div>
+        
+        <div class="letter-container mt-5">
+            <h2 class="titulo2">Mi Carta para Ti</h2>
+            <div class="letter-content">
+                <p>Para Mi Monito</p>
+                <p>
+                    no puedo creer lo rapido que paso el tiempo nuestro primer año juntos. Ha sido un año muy lindo junto a ti muchas aventuras y viajes juntos espero que sean muchos mas.
+                </p>
+                <p>
+                    Gracias por tu amor incondicional, tu apoyo y por ser mi compañera. sabes que estoy aqui para lo que sea.
+                </p>
+                <p>
+                    Te Quiero mas de lo que las palabras pueden expresar.Feliz aniversario.
+                </p>
+                <p>Con todo mi amor.</p>
+                <p>Gibran Etiel.</p>
+            </div>
+        </div>
+
+        <!-- Carrusel de videos -->
+        <div class="container mt-5 video-carousel">
+            <h2 class="titulo2 text-center">Mejores Momentos</h2>
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="video-wrapper">
+                            <video id="video1" width="600" height="400" controls>
+                                <source src="./assent/videos/video1.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video1')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video-wrapper">
+                            <video id="video2" width="600" height="400" controls>
+                                <source src="./assent/videos/video2.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video2')">&#9658;</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item a ">
+                        <div class="video-wrapper">
+                            <video id="video3" width="600" height="400" controls>
+                                <source src="./assent/videos/video3.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video3')">&#9658;</button>
+                        </div>
+                    </div>
+                   
+                  
+                </div>
+                <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+        
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assent/js/script.js"></script>
+    
+</body>
+</html>
